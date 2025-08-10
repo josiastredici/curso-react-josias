@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0e1c33; 
+  color: white;
+}
+
+.navbar .logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar .categories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .categories a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar .categories a:hover {
+  text-decoration: underline;
+}
+
+
+.cart-widget {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.cart-widget .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #0069d9; 
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cart-widget svg {
+  color: white; 
+}
+
+
+.item-list-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+}
+
+.item-list-container h2 {
+  color: #0069d9; 
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.App {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  color: #ffffff;
+}
+
+
+.App {
+  font-family: 'Arial', sans-serif;
+}
+
+.carousel-container {
+  background: #B3AC93;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.carousel-item{
+  height: 20rem;
+  min-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}

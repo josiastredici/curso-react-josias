@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import destinyImg from "./assets/Destiny-1-ps4.jpg";
 import gtaImg from "./assets/gta-san-andreas-ps2.jpeg";
+import crashImg from "./assets/crash-bash-ps1.jpg";
 
 const images = [
     {
@@ -11,6 +12,10 @@ const images = [
     {
         alt: "Gta San Andreas Ps2",
         src: gtaImg
+    },
+    {
+        alt: "Crash Bash ps1",
+        src: crashImg
     }
 ];
 

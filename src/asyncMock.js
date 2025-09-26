@@ -1,31 +1,31 @@
 const juegos = [
-    {
-        id: '1',
-        title: 'Mortal Kombat X',
-        price: 26500,
-        stock: 3,
-        category: 'accion',
-        img: 'https://image.api.playstation.com/cdn/EP1018/CUSA00970_00/sN9NrMFgwWxGCDdj6tbLMIAr13d7TQdR.png?w=620&thumb=false',
-        description: 'Mortal Kombat X descripción'
-    },
-    {
-        id: '2',
-        title: 'Call of Duty',
-        price: 60260,
-        stock: 10,
-        category: 'accion',
-        img: 'https://image.api.playstation.com/vulcan/ap/rnd/202205/2800/W5uSEsW7yefCNTHatS03v5q7.png?w=230&thumb=false',
-        description: 'Call of Duty descripción'
-    },
-    {
-        id: '3',
-        title: 'FIFA 2025',
-        price: 75000,
-        stock: 15,
-        category: 'deporte',
-        img: 'https://image.api.playstation.com/vulcan/ap/rnd/202503/2520/f3c135f8ebdc50b782c6f5f02b27130b499e22847f05aee6.png?w=230&thumb=false',
-        description: 'FIFA 2025 descripción'
-    },
+    // {
+    //     id: '1',
+    //     title: 'Mortal Kombat X',
+    //     price: 26500,
+    //     stock: 3,
+    //     category: 'accion',
+    //     img: 'https://image.api.playstation.com/cdn/EP1018/CUSA00970_00/sN9NrMFgwWxGCDdj6tbLMIAr13d7TQdR.png?w=620&thumb=false',
+    //     description: 'Mortal Kombat X descripción'
+    // },
+    // {
+    //     id: '2',
+    //     title: 'Call of Duty',
+    //     price: 60260,
+    //     stock: 10,
+    //     category: 'accion',
+    //     img: 'https://image.api.playstation.com/vulcan/ap/rnd/202205/2800/W5uSEsW7yefCNTHatS03v5q7.png?w=230&thumb=false',
+    //     description: 'Call of Duty descripción'
+    // },
+    // {
+    //     id: '3',
+    //     title: 'FIFA 2025',
+    //     price: 75000,
+    //     stock: 15,
+    //     category: 'deporte',
+    //     img: 'https://image.api.playstation.com/vulcan/ap/rnd/202503/2520/f3c135f8ebdc50b782c6f5f02b27130b499e22847f05aee6.png?w=230&thumb=false',
+    //     description: 'FIFA 2025 descripción'
+    // },
     {
         id: '5',
         title: 'Top Spin',

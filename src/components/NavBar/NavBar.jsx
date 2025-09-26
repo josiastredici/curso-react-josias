@@ -1,22 +1,23 @@
 import React from 'react';
-import CartWidget from '../CartWidget/CartWidget';
+import CartWidget from '../NavBar/CartWidget/CartWidget';
 import '../../index.css';
 import brand from '../../assets/logo ps.svg';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   return (
     <nav className="navbar">
-      <a href="/">
+      <NavLink to="/" className="brand">
         <img src={brand} alt="Logo PlayStation Store" />
-      </a>
+      </NavLink>
       <div className="logo">
         <h1>PlayStation Store</h1>
       </div>
       <div className="categories">
         <ul>
-          <li><a href="/categoria/accion">Juegos de Acción</a></li>
-          <li><a href="/categoria/deporte">Juegos de Deporte</a></li>
-          <li><a href="/categoria/aventura">Juegos de Aventura</a></li>
+          <li><NavLink to="/categoria/accion">Juegos de Acción</NavLink></li>
+          <li><NavLink to="/categoria/deporte">Juegos de Deporte</NavLink></li>
+          <li><NavLink to="/categoria/aventura">Juegos de Aventura</NavLink></li>
         </ul>
       </div>
       <CartWidget />

@@ -11,7 +11,7 @@ const Item = ({id, title, price, stock, img}) => {
             <Card.Text><span>Precio:</span> ${price}</Card.Text>
             <Card.Text><span>Stock disponible:</span> {stock}</Card.Text>
             <Card.Footer className="card-footer">
-                <Link to={`/game/${id}`} className="option">Ver más</Link>
+                <Link to={`/juego/${id}`} className="option">Ver más</Link>
             </Card.Footer>
         </Card>
     );

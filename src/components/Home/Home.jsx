@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import destinyImg from "./assets/Destiny-1-ps4.jpg";
-import gtaImg from "./assets/gta-san-andreas-ps2.jpeg";
-import crashImg from "./assets/crash-bash-ps1.jpg";
+import destinyImg from "./assets/Destiny1-img.webp";
+import gtaImg from "./assets/grand_theft_auto_san_andreas.jpg";
+import crashImg from "./assets/crash-bash-img.jpg";
 
 const images = [
     {
